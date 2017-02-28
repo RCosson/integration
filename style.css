@@ -1,0 +1,31 @@
+body {
+  background: url("background.jpg") top scroll no-repeat;
+  margin: 0;
+  background-size: contain;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
+  margin-bottom: 4%;
+  border-bottom: 2px solid #E44D26;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 20px;
+  text-decoration: none;
+}
